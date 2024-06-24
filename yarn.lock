@@ -4130,6 +4130,18 @@
     superstruct "^1.0.3"
     uuid "^9.0.0"
 
+"@metamask/keyring-api@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@metamask/keyring-api/-/keyring-api-8.0.0.tgz#57a4e18921f859f45e6882afe7f938955b826d91"
+  integrity sha512-jxow0Q9xPGTb2oY6d+t7f8lpboqTg5W24CyorZyvfwTsKQ9hNj4RhUsVszUYPySOt6O+Nu1uiYD+Se1Sk43Xwg==
+  dependencies:
+    "@metamask/snaps-sdk" "^4.2.0"
+    "@metamask/utils" "^8.4.0"
+    "@types/uuid" "^9.0.8"
+    bech32 "^2.0.0"
+    superstruct "^1.0.3"
+    uuid "^9.0.1"
+
 "@metamask/keyring-controller@^13.0.0":
   version "13.0.0"
   resolved "https://registry.yarnpkg.com/@metamask/keyring-controller/-/keyring-controller-13.0.0.tgz#6552f95dc2c19003f1c5f4e8f48ac221d8a1c063"
@@ -4909,6 +4921,11 @@
     superstruct "^1.0.3"
     validate-npm-package-name "^5.0.0"
 
+"@metamask/superstruct@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@metamask/superstruct/-/superstruct-3.0.0.tgz#0200d0a627522904a7e0fd751dcc6fb863cefacb"
+  integrity sha512-TOm+Lt/lCJk9j/3QT2LucrPewRmqI7/GKT+blK2IIOAkBMS+9TmeNjd2Y+TlfpSSYstaYsGZyz1XwpiTCg6RLA==
+
 "@metamask/swappable-obj-proxy@^2.1.0", "@metamask/swappable-obj-proxy@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@metamask/swappable-obj-proxy/-/swappable-obj-proxy-2.2.0.tgz#31b8e0ce57e28bf9847b3b24b214996f7748cc99"
@@ -5031,19 +5048,20 @@
     semver "^7.3.8"
     superstruct "^1.0.3"
 
-"@metamask/utils@^8.0.0", "@metamask/utils@^8.1.0", "@metamask/utils@^8.2.0", "@metamask/utils@^8.3.0":
-  version "8.3.0"
-  resolved "https://registry.yarnpkg.com/@metamask/utils/-/utils-8.3.0.tgz#a20de447aeb9ffb75924d822a186a597033984b6"
-  integrity sha512-WFVcMPEkKKRCJ8DDkZUTVbLlpwgRn98F4VM/WzN89HM8PmHMnCyk/oG0AmK/seOxtik7uC7Bbi2YBC5Z5XB2zw==
+"@metamask/utils@^8.0.0", "@metamask/utils@^8.1.0", "@metamask/utils@^8.2.0", "@metamask/utils@^8.3.0", "@metamask/utils@^8.4.0":
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/@metamask/utils/-/utils-8.5.0.tgz#ddd0d4012d5191809404c97648a837ea9962cceb"
+  integrity sha512-I6bkduevXb72TIM9q2LRO63JSsF9EXduh3sBr9oybNX2hNNpr/j1tEjXrsG0Uabm4MJ1xkGAQEMwifvKZIkyxQ==
   dependencies:
     "@ethereumjs/tx" "^4.2.0"
+    "@metamask/superstruct" "^3.0.0"
     "@noble/hashes" "^1.3.1"
     "@scure/base" "^1.1.3"
     "@types/debug" "^4.1.7"
     debug "^4.3.4"
     pony-cause "^2.1.10"
     semver "^7.5.4"
-    superstruct "^1.0.3"
+    uuid "^9.0.1"
 
 "@ngraveio/bc-ur@^1.1.5", "@ngraveio/bc-ur@^1.1.6":
   version "1.1.6"
@@ -9330,7 +9348,7 @@
   resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-9.0.2.tgz#ede1d1b1e451548d44919dc226253e32a6952c4b"
   integrity sha512-kNnC1GFBLuhImSnV7w4njQkUiJi0ZXUycu1rUaouPqiKlXkh77JKgdRnTAp1x5eBwcIwbtI+3otwzuIDEuDoxQ==
 
-"@types/uuid@^9.0.1":
+"@types/uuid@^9.0.1", "@types/uuid@^9.0.8":
   version "9.0.8"
   resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-9.0.8.tgz#7545ba4fc3c003d6c756f651f3bf163d8f0f29ba"
   integrity sha512-jg+97EGIcY9AGHJJRaaPVgetKDsrTgbRjQ5Msgjh/DQKEFl0DtyRr/VCOyD1T2R1MNeWPK/u7JoGhlDZnKBAfA==
@@ -12312,6 +12330,11 @@ bech32@1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/bech32/-/bech32-1.1.4.tgz#e38c9f37bf179b8eb16ae3a772b40c356d4832e9"
   integrity sha512-s0IrSOzLlbvX7yp4WBfPITzpAU8sqQcpsmwXDiKwrG4r491vwCO/XpejasRNl0piBMe/DvP4Tz0mIS/X1DPJBQ==
+
+bech32@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/bech32/-/bech32-2.0.0.tgz#078d3686535075c8c79709f054b1b226a133b355"
+  integrity sha512-LcknSilhIGatDAsY1ak2I8VtGaHNhgMSYVxFrGLXv+xLHytaKZKcaUJJUE7qmBr7h33o5YQwP55pMI0xmkpJwg==
 
 before-after-hook@^2.2.0:
   version "2.2.3"
