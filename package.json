@@ -401,7 +401,7 @@
     "@typescript-eslint/parser": "^5.57.0",
     "@walletconnect/types": "^2.9.0",
     "@wdio/appium-service": "^7.19.1",
-    "@wdio/browserstack-service": "^7.26.0",
+    "@wdio/browserstack-service": "^8.39.0",
     "@wdio/cli": "^7.19.1",
     "@wdio/cucumber-framework": "^7.19.1",
     "@wdio/junit-reporter": "^7.25.4",
